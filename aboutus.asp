@@ -1,8 +1,6 @@
 <%
 	if session("uname")="" then
 		server.execute("databasecon.asp")
-	else
-		response.redirect("personalhomepage.asp")
 	end if
 %>
 <html>
@@ -11,9 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
 	<!--#include file="navbar.asp"-->
 	<body bgcolor="#ffffe6">
-		<div class="createclub">
-			<a href="createclub.asp" class="createclubtext">Create a Club</a>
-		</div>
 		<div class="aboutclub">
 			<p class="aboutclubdata">Do you love books?<br>Are you often looking for people to discuss literature with? Lots of people love to read, but it can be hard to find someone to discuss the book you're reading especially if you love an uncommon genre. If you're having a hard time finding people to talk with about your reading material, you might want to consider joining or starting a book club. They're also great opportunities to meet new people and make new friends with common interests.<br>It's common for groups of friends who enjoy reading to start book clubs, but if your friends aren't the literary type then you can find some here. Find people, clubs and books all at one place. This is where you can meet fellow booklovers from around, or other cities or even other countries!
 			</p>
