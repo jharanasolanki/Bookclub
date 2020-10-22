@@ -1,0 +1,16 @@
+body
+{
+  background-image: url("../images/joinclubbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.showpart
+{
+	border-radius: 20px;
+  height:70%;
+  margin:2% 2% 2% 2%;
+  width:70%;
+  float:left;
+  background-color: #ffffe6;
+}

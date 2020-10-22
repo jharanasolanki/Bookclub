@@ -1,0 +1,74 @@
+body
+{
+  background-image: url("../images/findclub.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.parts
+{
+ border-radius: 20px;
+  height:60%;
+  margin:0% 0% 2% 2%;
+  width:30%;
+  float:left;
+  background-color: white;
+}
+.optsview
+{
+  font-family: 'Poppins';
+  height:70%;
+  overflow: scroll;
+  width:90%;
+  border-radius: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  padding:2% 2%;
+  background-color: white;
+}
+.searchbox
+{
+font-family: 'Poppins';
+  height:20%;
+  width:90%;
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  padding:2% 2%;
+}
+.srcval
+{
+ float:left;
+ margin-top: 1%;
+ margin-right: 2%;
+  width: 60%;
+  height:5%;
+  padding:3% 2% 2% 2%;
+  font-size: 100%;
+  border-radius: 30px;
+  font-family: 'Poppins';
+}
+.srcbtn{
+  float:left;
+  width: 20%;
+  height:5%;
+  background-color: #ffe5cc;
+  color: black;
+  padding:2% 2% 5% 2%;
+  text-align: center;
+  font-size: 100%;
+  border:none;
+  border-radius: 30px;
+  font-family: 'Poppins';
+}
+
+.srcbtn:hover {
+  background-color: #ffbd80;
+}

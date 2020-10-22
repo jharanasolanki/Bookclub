@@ -1,0 +1,260 @@
+body
+{
+  background-image: url("../images/createclubbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.stats
+{
+	font-family: 'Poppins';
+	height:40%;
+	width:90%;
+	border-radius: 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2%;
+    margin-bottom: 3%;
+	padding:2% 2%;
+}
+.user
+{
+	border-radius: 20px;
+	height:100%;
+	width:30%;
+	float:left;
+	background-color: #ffffe6;
+}
+.profpic
+{
+	height:40%;
+	width:40%;
+	border-radius: 20px;
+	margin-left: 30%;
+	margin-top:5% ;
+	display: block;
+}
+.picbutton,.editprofbutton,.passwordbutton
+{
+	font-family: 'Poppins';
+	text-decoration: none;
+	height:10%;
+	width:50%;
+	border-style:none;
+	border-radius: 20px;
+	display: block;
+	padding:2% 4% 7% 4%;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	background-color:#ffd1b3;
+	color:black;
+	margin-left: 25%;
+}
+.picbutton:hover,.editprofbutton:hover,.passwordbutton:hover
+{
+	background-color:#ffa366;
+}
+.username
+{
+	border-radius: 20px;
+	display: block;
+	margin-top: 1%;
+	margin-bottom: 1%;
+  	margin-left: 40%;
+	font-family: 'Poppins';
+}
+.statdata
+{
+	background-color: white;
+	border-radius: 20px;
+	height:100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width:40%;
+	float:left;
+}
+th,td
+{
+	padding-top: 5%;
+	width:10%;
+}
+.settings
+{
+	background-color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	height:100%;
+	width:15%;
+	float:left;
+}
+.opts
+{
+	font-family: 'Poppins';
+	height:70%;
+	width:90%;
+	border-radius: 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 1%;
+  	margin-bottom: 3%;
+	padding:2% 2%;
+}
+.optsname
+{
+	height:100%;
+	width:20%;
+	float:left;
+	border-radius: 20px;
+	background-color:#ffe0cc;
+	margin-right: 3%;
+	padding: 1% 1%
+}
+.optlist
+{
+	list-style-type: none;
+	padding:3% 3%;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.optitem
+{
+	padding:2% 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+}
+.optitem:hover
+{
+	background-color:#ffa366;
+}
+.imgicon
+{
+	margin-right:20%;
+	margin-bottom: 0%;
+	height:4%;
+	width:10%;
+}
+.optsview
+{
+	height:100%;
+	width:75%;
+	float:left;
+	border-radius: 20px;
+	background-color:white;
+	overflow: scroll;
+}
+label
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 60%;
+  height:5%;
+  font-family: 'Poppins';
+  font-size: 100%;
+}
+input[type=text]
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 60%;
+  height:5%;
+  padding:2% 2% 4% 2%;
+  font-size: 100%;
+  border-radius: 30px;
+  font-family: 'Poppins';
+}
+textarea
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding:2% 2% 2% 2%;
+  font-size: 100%;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  width: 60%;
+  height:60%;
+}
+input[type=submit]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 90%;
+  height:5%;
+  background-color: #ffe5cc;
+  color: black;
+  padding:2% 2% 6% 2%;
+  text-align: center;
+  font-size: 100%;
+  border:none;
+  border-radius: 30px;
+  font-family: 'Poppins';
+}
+input[type=file]
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height:12%;
+  padding:2% 2% 2% 2%;
+  font-size: 100%;
+  border-radius: 30px;
+  font-family: 'Poppins';
+}
+input[type=submit]:hover {
+  background-color: #ffbd80;
+}
+#aboutme,#favbook,#readbooks,#toreadbooks,#myclubs
+{
+	font-family: 'Poppins';
+	height:30%;
+	width:60%;
+	border-radius: 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2%;
+    margin-bottom: 3%;
+	padding:2% 2%;
+}
+.visitbutton
+{
+	font-family: 'Poppins';
+	text-decoration: none;
+	height:12%;
+	width:30%;
+	border-style:none;
+	border-radius: 20px;
+	display: block;
+	padding:0% 0% 0% 0%;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color:#ffd1b3;
+	color:black;
+	margin-left: 1%;
+}
+.visitbutton:hover
+{
+	background-color:#ffa366;
+}
+#aboutme,#favbook,#readbooks,#toreadbooks,#myclubs
+{
+	display:none;
+}

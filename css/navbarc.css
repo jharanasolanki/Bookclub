@@ -1,0 +1,32 @@
+.navbarul {
+  list-style-type: none;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   font-family: 'Poppins';
+  background-color:  #ffe5cc;
+}
+.home
+{
+  float:left;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-bottom: 0.7%;
+}
+.rightnav{
+  float: right;
+}
+
+.rightnav{
+   font-family: 'Poppins';
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1%;
+  text-decoration: none;
+}
+
+.home:hover,.rightnav:hover {
+  background-color:#ffbd80;
+}

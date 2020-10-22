@@ -1,0 +1,60 @@
+.clubdata
+{
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  height:90%;
+  width:90%;
+  float:left;
+  background-color: #ffffe6;
+}
+table
+{
+  border-radius: 20px;
+  margin-top: 0%;
+  margin-left: 40%;
+  height:60%;
+  width:60%;
+  float:left;
+  font-family: 'Poppins';
+  font-size: 100%;
+}
+.profpic
+{
+  height:40%;
+  width:30%;
+  border-radius: 20px;
+  margin-left: 45%;
+  margin-top:2% ;
+  margin-bottom: 0%;
+  display: block;
+}
+.username
+{
+  border-radius: 20px;
+  display: block;
+  margin-top: 2%;
+  margin-left: 40%;
+  font-family: 'Poppins';
+}
+.joinclubbutton
+{
+  font-family: 'Poppins';
+  text-decoration: none;
+  height:auto;
+  width:100%;
+  border-style:none;
+  border-radius: 20px;
+  display: block;
+  padding:1% 4% 1% 4%;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color:#ffd1b3;
+  color:black;
+  margin-left: 15%;
+}
+.joinclubbutton:hover
+{
+  background-color:#ffa366;
+}

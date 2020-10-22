@@ -1,0 +1,20 @@
+body
+{
+  background-image: url("../images/createclub.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+div
+{
+	background-color: white;
+	height:30%;
+	width:80%;
+	border-radius: 20px;
+	margin:5% 5%;
+	padding:5% 5%;
+}
+input{
+{
+	border-radius: 30px;
+}
